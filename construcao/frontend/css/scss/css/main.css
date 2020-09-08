@@ -1,0 +1,15 @@
+html, body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #000000;
+  color: white;
+}
+
+.container {
+  color: white;
+}
+
+.container p {
+  color: orange;
+}
+/*# sourceMappingURL=main.css.map */

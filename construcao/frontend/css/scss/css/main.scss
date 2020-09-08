@@ -1,0 +1,16 @@
+$text-color : white;
+@import 'base'; // partials
+
+
+html,body{
+    box-sizing: border-box;
+    background-color: #000000;
+    color: $text-color;
+}
+
+.container{
+    color: $text-color;
+    p{
+        color: orange;
+    }
+}
