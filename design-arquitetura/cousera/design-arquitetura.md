@@ -29,17 +29,17 @@
 ### Design de Objetos por Categorias
 
     - Objetos possuem comumente 3 categorias:
-        - *boundary objects*:
+        - boundary objects:
           - São objetos que fica na "borda" da aplicação
             podendo ser essa borda, comunicação com outros serviços.
             internet ou mesmo a interface de usuário
 
-        - *control objects*:
+        - control objects:
             -  Objectos que visam controlar o funcionamento de outros
             objetos. Muitsa vezes servindo como um mediador para acoplar
             diversos objetos
         
-        - *entity objects*:
+        - entity objects:
             - Entity objects são os mais comuns entre os objetos, normalmente
             usados para representar coisas do mundo real.
 
