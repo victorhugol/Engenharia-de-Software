@@ -1,15 +1,19 @@
 #   Design e Arquitetura de Software - Orientação a Objeto
 
 
-[Requerimento de Software](#requerimentos-de-software)
+-   [Requerimento de Software](#requerimentos-de-software)
 
-[Design de Objetos por Categoria](#design-de-objetos-por-categorias)
+-   [Design de Objetos por Categoria](#design-de-objetos-por-categorias)
 
-[CRC](#class-responsability-collaboratorcrc)
+-   [CRC](#class-responsability-collaboratorcrc)
 
-    Arquitetura de Software é uma forma de abstração do projeto de software
-    não consiste em linhas de código, mas uma visão dos componentes, objetos
-    e a forma como o software deve ser desenvolvido.
+-   [Principios de Design Orientado a Objeto](#os-4-principios-do-design-orientado-a-objeto)
+
+-   [Abstraçao em Java e UML](#abstração-em-java-e-uml)
+
+Arquitetura de Software é uma forma de abstração do projeto de software e
+não consiste em linhas de código, mas sim em uma visão dos componentes, objetos
+e as tecnologias usadas no desenvolvimento da aplicação.
 
 
 ### Requerimentos de Software
@@ -72,6 +76,36 @@
         - Pontos importantes ao decompor : 
             - Objetos fixos e dinamicos
             - Tempo de Vida
-            - Compartilhamento de Objetos 
+            - Compartilhamento de Objetos
+        - Existem 3 tipos de relacionamento encontrados numa decomposição :
+            - Associação : um objeto não depende do outro, seu relacionamento é livre
+            - Agregação : uma relação "tem - um", onde um objeto possui o outro
+            para poder existir
+            - Composição : um tipo específico de "tem- um" onde um objeto vai depender
+            do objeto que ele possui para existir
+
+    - Generalização
+        - Objetos que podem ser aplicados diversas vezes
+        por ter a necessidade de seu uso repetido, comum e com 
+        caracteríticas compartilhadas.
+        - Para aplicação desse conceito, pode-se pensar
+        no conceito de herança, existende em linguagens que implementam POO.
+        - Polimorfismo : é quando duas classes tem o mesmo comportamento, mas
+        possuem implementação diferente para a mesma
+        - O uso de Interfaces permite o uso de multipla herança 
+
+### Abstração em Java e UML
+
+-   Diagrama de Classes são uma forma de representar os Objetos da Aplicação
+-   É uma forma que tem seu lugar consolidado na prototipação das classes de
+    software
+
+- Características UML :
+    - Propriedades : equivalente aos atributos das classes
+    - Operações : equivalente aos métodos
 
 
+
+
+
+    
