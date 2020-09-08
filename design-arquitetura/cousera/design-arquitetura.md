@@ -1,10 +1,11 @@
-#   Design e Arquitetura de Software
+#   Design e Arquitetura de Software - Orientação a Objeto
 
 
 [Requerimento de Software](#requerimentos-de-software)
 
 [Design de Objetos por Categoria](#design-de-objetos-por-categorias)
 
+[CRC](#class-responsability-collaboratorcrc)
 
     Arquitetura de Software é uma forma de abstração do projeto de software
     não consiste em linhas de código, mas uma visão dos componentes, objetos
@@ -46,20 +47,31 @@
 
 ### Class Responsability Collaborator(CRC)
 
-    Para elaborar o design de um software podemos pensar em três
-    pontos que podem auxiliar a sua construção.
+    Para elaborar o design de um software podemos pensar no CRC
+    como um método de esboçar a construção do software.
 
-    - Componentes:
-
-        - Criação de Componentes :
-          - Esboçe
-          - Organize
-          - Refine
-
-    - Conexões
-
-    - Responsabilidades:
+    - CRC tem três pontos:
+      - Classes
+      - Colaboradores
+      - Responsabilidades
 
 
+### Os 4 Principios do Design Orientado a Objeto
+
+    - Abstração :
+        - Comportamentos e atributos de um conceito, sem visar características
+        minúsculas, o que pode ser irrelevante
+    
+    - Encapsulamento :
+        - O acesso a metodos e atributos funcionam como em uma "caixa preta"
+        o usuario não tem conhecimento de como foi implementado e apenas tem
+        acesso ao que é permitido a ele.
+    
+    - Decomposição:
+        - Quebrar um problema grande em um problema pequeno
+        - Pontos importantes ao decompor : 
+            - Objetos fixos e dinamicos
+            - Tempo de Vida
+            - Compartilhamento de Objetos 
 
 
