@@ -80,7 +80,7 @@ e as tecnologias usadas no desenvolvimento da aplicação.
         - Existem 3 tipos de relacionamento encontrados numa decomposição :
             - Associação : um objeto não depende do outro, seu relacionamento é livre
             - Agregação : uma relação "tem - um", onde um objeto possui o outro
-            para poder existir
+            mas não depende disso para poder existir
             - Composição : um tipo específico de "tem- um" onde um objeto vai depender
             do objeto que ele possui para existir
 
